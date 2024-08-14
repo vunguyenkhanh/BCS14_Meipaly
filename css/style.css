@@ -32,12 +32,12 @@
     visibility: hidden;
 }
 
-.cd-top--is-visible { 
+.cd-top--is-visible {
     visibility: visible;
     opacity: 1;
 }
 
-.cd-top--fade-out { 
+.cd-top--fade-out {
     opacity: .5;
 }
 
@@ -47,7 +47,7 @@ header {
     padding: 26px 0;
     /* position: fixed; */
     position: absolute;
-    top: 0; 
+    top: 0;
     left: 0;
     width: 100%;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
@@ -103,7 +103,7 @@ header ul li:nth-child(5) a {
 
 header ul li.active a {
     color: #e62b4a;
-}   
+}
 
 header ul li:hover a {
     color: red;
@@ -111,7 +111,8 @@ header ul li:hover a {
 
 /* Banner */
 .banner {
-    background-image: url(../img/home_slider.jpg);
+    /* background-image: url(../img/home_slider.jpg); */
+    background-color: #e62b4a;
     /* Điều chỉnh kích thước nền */
     background-size: cover;
     /* Điều chỉnh vị trí hiển thị của hình nền */
@@ -280,7 +281,7 @@ header ul li:hover a {
     height: 500px;
     background-color: black;
     position: relative;
-    
+
 }
 .demo_before_after p::before {
     content: 'Hôm nay';
@@ -375,7 +376,7 @@ header ul li:hover a {
     width: 100%;
     height: 100%;
     background-color: rgba(230, 43, 74, 0.6);
-    padding: 25px; 
+    padding: 25px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -484,7 +485,7 @@ header ul li:hover a {
 }
 
 .digital_content {
-    margin-top: 30px; 
+    margin-top: 30px;
 }
 
 .digital_content video {
