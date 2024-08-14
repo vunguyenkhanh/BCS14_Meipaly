@@ -111,8 +111,8 @@ header ul li:hover a {
 
 /* Banner */
 .banner {
-    /* background-image: url(../img/home_slider.jpg); */
-    background-color: #e62b4a;
+    background-image: url(../img/home_slider.jpg);
+    /* background-color: #e62b4a; */
     /* Điều chỉnh kích thước nền */
     background-size: cover;
     /* Điều chỉnh vị trí hiển thị của hình nền */
