@@ -1,0 +1,131 @@
+/* Selector Element */
+h2 {
+    font-size: 30px;
+    color: white;    
+}
+
+/* Selector Class */
+.bg-orange {
+    background-color: orange;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.bg-green {
+    background-color: green;
+    color: white;
+    text-align: right;
+}
+
+/* Selector ID */
+/* Giá trị ưu tiên là 100 */
+#demo {
+    background-color: chocolate;
+    color: white;
+}
+
+/* Giá trị ưu tiên là 1 */
+p {
+    background-color: blue;
+}
+
+/* Giá trị ưu tiên là 10 */
+.bg-yellow {
+    background-color: yellow;
+}
+
+/* Giá trị ưu tiên là 10 */
+.text-blue {
+    background-color: black;
+}
+
+/* CSS Quan hệ cha con */
+div .bg-green {
+    text-align: center;
+}
+
+/* Demo về flex trong dự án */
+.demo1 {
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    color: white;
+}
+
+.demo2 {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    color: white;
+}
+
+.flex-container {
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    /* justify-content: center; */
+    /* justify-content: flex-end; */
+    /* justify-content: flex-start; */
+    justify-content: space-between;
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+
+    /* align-items: center; */
+    /* align-items: flex-end; */
+    /* align-items: flex-start; */
+
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    flex-direction: row-reverse;
+}
+
+/* view-port (vh-vw) */
+
+
+.margin_demo {
+    background-color: green;
+    height: 800px;
+}
+
+/* Nội dung + padding + border = chiều dài và chiều cao của một thẻ html */
+/* Margin là thuộc tính tạo khoảng các giữa các phần từ với nhau */
+/* Margin có một số cách truyền giá trị như: 2 giá trị (trên dưới và trái phải), 3 và 4 giá trị thì chỉnh chiều kim đồng hồ bắt đầu từ top */
+
+.margin1 {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    margin: 20px 40px 60px 80px;
+}
+
+.margin2 {
+    width: 450px;
+    height: 450px;
+    background-color: blue;
+    color: white;
+    /* padding: 30px; */
+    padding-top: 100px;
+    /* padding-left: 200px;
+    padding-right: 150px;
+    padding-bottom: 200px; */
+    box-sizing: border-box;
+}
+
+.demo_boxsizing {
+    background-color: red;
+    height: 200px;
+}
+.demo_box1 {
+    width: 24%;
+    height: 100%;
+    display: inline-block;
+    background-color: blue;
+    box-sizing: border-box;
+    padding: 50px;
+}
